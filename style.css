@@ -1,0 +1,78 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    height: 100vh;
+}
+
+#buttons {
+    gap: 20px;
+    margin-bottom: -2vh;
+}
+
+button {
+    border-radius: .1in;
+    padding: 0.5vw 1vw;
+    font-size: 2vh;
+    background-color: #F0F0F0;
+    z-index: 1;
+    transition: background-color 0.2s ease;
+}
+
+#reset:hover, #showScore:hover, #resetScore:hover {
+    background-color: #4498ff;
+}
+.good:hover {
+    background-color: #4498ff;
+}
+.forbidden {
+    background: grey;
+    cursor: not-allowed;
+}
+
+.forbidden:hover {
+    background: grey;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#010e34 70%, red);
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: -10vh;
+}
+
+td {
+    border: 2px solid black;
+    width: 9.8vh;
+    height: 9.8vh;
+    background: radial-gradient(circle, #F0F0F0 40%, rgb(8, 67, 87) 42%)
+}
+
+.red {
+    background: radial-gradient(circle, red 40%, rgb(8, 67, 87) 42%)
+}
+
+.yellow {
+    background: radial-gradient(circle, yellow 40%, rgb(8, 67, 87) 42%)
+}
+
+p {
+    color: white;
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+
+span {
+    color: red;
+}
